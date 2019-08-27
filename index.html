@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VueJs</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<style type="text/css">
+		body{
+			background-color: darkgray
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+	<div id="app">
+		<div> compteur : {{ compteur }} </div>
+		<dico @click-component="updateCompteur"></dico>	
+	</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="main.js"></script>
+</body>
+</html>
